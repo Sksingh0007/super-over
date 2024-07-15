@@ -1,11 +1,13 @@
 'use strict';
  
-// let score1 = document.querySelectorAll('.ball');
+console.log("HII");
+
 
 const btnstrike = document.getElementById('strike');
 const btnreset = document.getElementById('reset');
-// const currentBall = document.querySelectorAll('.ball');
+
  
+
 
 const $score1 = document.getElementById('score-team1');
 const $score2 = document.querySelector('#score-team2');
@@ -26,9 +28,6 @@ let turn = 1;
 //RESSET
 btnreset.addEventListener('click', function(){
     window.location.reload();
-    // for(let i = 0; i<12; i++){
-    //     currentBall[i].textContent = null;
-    // }
 });
 
 //GAME OVER
