@@ -1,7 +1,5 @@
 'use strict';
  
-console.log("HII");
-
 
 const btnstrike = document.getElementById('strike');
 const btnreset = document.getElementById('reset');
